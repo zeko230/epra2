@@ -35,7 +35,7 @@ use App\Http\Controllers\FrontController;
 use App\Http\Controllers\FrontendProfileController;
 
 Auth::routes();
-
+Route::get('/index3', function(){return view('front.index3');})->name('index3');
 
 
 
